@@ -21,9 +21,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={domine.className}>
           <Header />
-          <div className="flex">
+          <div className="flex space-x-6">
               <NavBar/>
-              <div className="container ps-10 md:pt-6 md:ps-0">
+              <div className="container">
                   {children}
               </div>
           </div>

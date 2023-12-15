@@ -33,7 +33,7 @@ export default function NavBar (props: Props) {
     }
 
     return (
-        <div className="hidden md:block w-40">
+        <div className="hidden md:block w-40 ms-3">
             {navs.map(nav => (
                 <Link
                     key={nav.href}
