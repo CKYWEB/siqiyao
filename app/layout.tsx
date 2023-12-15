@@ -23,7 +23,7 @@ export default function RootLayout({
           <Header />
           <div className="flex max-w-6xl">
               <NavBar/>
-              <div className="w-full mx-4 md:ms-0">
+              <div className="w-full sm:mx-4 md:me-4">
                   {children}
               </div>
           </div>
