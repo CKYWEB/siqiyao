@@ -1,7 +1,7 @@
 import expData from "@/app/data/experiences.json";
 
 export type Experience = {
-    tag: string;
+    tag: "working" | "education";
     id: string;
     institution: string;
     title: string;
@@ -19,13 +19,17 @@ export const generateDate = (d: string) => {
     return new Date(yearIndex, monthIndex);
 }
 
+export const formatDate = (d: Date) => {
+    return d.toLocaleString('en-us',{month:'short', year:'numeric'});
+}
+
 export const getExp = () => {
     return expData.exp
         .map((e) => ({
             ...e,
             imagePath: `/${e.id}_logo.png`,
             startDate: generateDate(e.startDate),
-            stopDate: e.stopDate ? generateDate(e.startDate) : undefined
+            stopDate: e.stopDate ? generateDate(e.stopDate) : undefined
         }))
         .sort((a, b) => {
             if (a.startDate > b.startDate) {
