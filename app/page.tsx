@@ -63,7 +63,7 @@ export default function Home() {
                 ))}
             </Section>
 
-            <Section title="Languages">
+            <Section title="Languages" className="border-b-0">
                 <ul className="flex space-x-6 list-disc">
                     <li>English</li>
                     <li>Mandarin</li>
