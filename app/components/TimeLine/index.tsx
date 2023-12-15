@@ -3,7 +3,7 @@ import {getExp} from "@/app/utils/experience";
 import styles from "./timeLine.module.css";
 
 type Props = {
-    className: string;
+    className?: string;
 }
 
 export default function TimeLine (props: Props) {
