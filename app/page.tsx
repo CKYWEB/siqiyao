@@ -7,7 +7,7 @@ import {getExp} from "@/app/utils/experience";
 export default function Home() {
     return (
         <>
-            <div className="border rounded">
+            <div className="border border-t-0 md:border-t md:mt-8">
                 <div className="bg-amber-50 h-40 mb-20">
                     <Image
                         priority

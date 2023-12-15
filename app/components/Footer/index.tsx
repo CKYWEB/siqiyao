@@ -6,7 +6,7 @@ type Props = {
 
 export default function Footer (props: Props) {
     return (
-        <footer className={`border-t border-gray-950 w-full py-8 h-32 text-center bg-amber-50 ${props.className}`}>
+        <footer className={`border-t w-full py-8 h-32 text-center bg-amber-50 ${props.className}`}>
             <div>Written, designed, and implemented by Siqi Yao.</div>
             <div className="flex justify-center mt-2">
                 <a
