@@ -18,7 +18,7 @@ export default function Home() {
                         className="rounded-full relative top-24 left-4"
                     />
                 </div>
-                <div className="md:flex md:justify-around px-4 pb-4 space-y-4 md:space-y-0">
+                <div className="md:flex md:justify-between px-4 pb-4 space-y-4 md:space-y-0">
                     <div className="space-y-2">
                         <div className="text-xl font-bold">Siqi Yao</div>
                         <div>
@@ -28,7 +28,9 @@ export default function Home() {
                             Northeastern University
                         </div>
                     </div>
-                    <TimeLine/>
+                    <div className="md:basis-2/3 md:flex md:justify-center">
+                        <TimeLine />
+                    </div>
                 </div>
             </div>
 
