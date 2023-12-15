@@ -8,7 +8,7 @@ type Props = {
 
 export default function TimeLine (props: Props) {
     return (
-        <ul className={`ps-4 ${styles.ul} ${props.className}`}>
+        <ul className={`${styles.ul} ${props.className}`}>
             {getExp().map(e=> (
                 <li key={e.id} className="pb-1">
                     <div className="text-gray-500 ps-4">
