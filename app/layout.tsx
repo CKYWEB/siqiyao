@@ -27,7 +27,7 @@ export default function RootLayout({
                   {children}
               </div>
           </div>
-          <Footer className="fixed bottom-0" />
+          <Footer className="mt-10 md:fixed md:bottom-0" />
       </body>
     </html>
   )
