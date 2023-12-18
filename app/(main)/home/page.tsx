@@ -6,8 +6,8 @@ import {getExp} from "@/app/utils/experience";
 
 export default function Home() {
     return (
-        <>
-            <div className="border border-t-0 md:border-t md:mt-8">
+        <div className="mt-8 mx-4 md:mt-16">
+            <div className="border">
                 <div className="bg-amber-50 h-40 mb-20">
                     <Image
                         priority
@@ -71,6 +71,6 @@ export default function Home() {
                     <li>Mandarin</li>
                 </ul>
             </Section>
-        </>
+        </div>
     )
 }

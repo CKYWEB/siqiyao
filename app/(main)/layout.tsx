@@ -7,8 +7,8 @@ export default function MainLayout({ children }: {
     return (
         <>
             <NavBar />
-            <div className="flex max-w-6xl">
-                <div className="w-full md:me-4">
+            <div className="w-full flex justify-center">
+                <div className="max-w-4xl">
                     {children}
                 </div>
             </div>

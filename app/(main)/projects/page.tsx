@@ -2,7 +2,7 @@ import ProjectWrapper from "@/app/components/ProjectWrapper";
 
 export default function Projects () {
     return (
-        <div className="mt-20 mx-10 md:mx-0 max-w-3xl text-lg flex flex-col space-y-24">
+        <div className="mt-20 mx-10 max-w-3xl text-lg flex flex-col space-y-24">
             <section>
                 <p>
                     I love building all kinds of software that can empower people to do different things,
