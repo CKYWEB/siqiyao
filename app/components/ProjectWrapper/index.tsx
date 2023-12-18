@@ -10,9 +10,9 @@ type Props = {
 
 export default function ProjectWrapper(props: Props) {
     return (
-        <div className="mt-20">
-            <section className="text-center ">
-                <h1 className="text-4xl mb-2">{props.title}</h1>
+        <div>
+            <section className="text-center">
+                <h1 className="text-4xl mb-2 font-bold">{props.title}</h1>
                 <div className="text-gray-400 mb-4">{props.desc}</div>
             </section>
             <div className="flex justify-center mb-4">
