@@ -3,9 +3,9 @@ import Image from "next/image";
 
 type Props = {
     title: string;
-    desc: string;
-    demo: string | ReactNode;
-    children: ReactNode;
+    desc?: string;
+    demo?: string | ReactNode;
+    children?: ReactNode;
 }
 
 export default function ProjectWrapper(props: Props) {
