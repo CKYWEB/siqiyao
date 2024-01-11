@@ -42,7 +42,7 @@ export default function Projects () {
                     GoodEats is a community built by and for kitchen lovers, to share their experiences and stay
                     connected. {`It's`} a full-stack web app deployed on{" "}
                     <a className="decoration-blue-400 underline"
-                       href="https://good-eats-eight.vercel.app/home"
+                       href="https://goodeats-ui.vercel.app/home"
                        target="_blank">Vercel
                     </a>.
                 </p>
