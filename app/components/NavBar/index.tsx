@@ -12,6 +12,10 @@ const navs = [
     {
         label: "Projects",
         href: "/projects"
+    },
+    {
+        label: "Thoughts",
+        href: "/thoughts"
     }
 ]
 
