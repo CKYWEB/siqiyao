@@ -28,7 +28,7 @@ export default function Projects () {
                 <br/>
                 <p>You can visit{" "}
                     <a className="decoration-blue-400 underline"
-                       href="https://github.com/biggbb777/bna"
+                       href="https://github.com/CKYWEB/bna"
                        target="_blank">GitHub
                     </a> to learn more.
                 </p>
@@ -79,7 +79,7 @@ export default function Projects () {
                     ensuring the {`game's`} playability and response speed.
                 </p>
                 <p>
-                    <a className="decoration-blue-400 underline" href="https://github.com/biggbb777/QuickQuiz"
+                    <a className="decoration-blue-400 underline" href="https://github.com/CKYWEB/QuickQuiz"
                        target="_blank">
                         Visit the repo.
                     </a>
