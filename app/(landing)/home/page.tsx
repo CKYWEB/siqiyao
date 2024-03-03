@@ -15,8 +15,8 @@ export default function Landing() {
                             link={"/projects"}
                         />
                         <Sign
-                            text="Thoughts"
-                            link={"/thoughts"}
+                            text="LinkedIn"
+                            link={"https://www.linkedin.com/in/siqi-yao-ck/"}
                         />
                     </div>
                 </div>
