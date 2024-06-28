@@ -2,7 +2,7 @@ import ProjectWrapper from "@/app/components/ProjectWrapper";
 
 export default function Landing() {
     return (
-      <div className="mt-10 mx-10 max-w-3xl text-lg flex flex-col space-y-24">
+      <div className="mt-10 mx-10 max-w-3xl text-lg flex flex-col space-y-14">
         <section>
           <p>
             I love building all kinds of software that can empower people to do different things,
@@ -14,13 +14,68 @@ export default function Landing() {
           </p>
         </section>
         <ProjectWrapper
+          title="yaji"
+          desc="Graceful notes app"
+          demo="/projects/yaji.png"
+        >
+          <p>
+            {`
+              Yaji aims to simplify the writing process. Often, we write spontaneously, without needing a specific folder or title. With yaji, we capture moments instead.
+            `}
+          </p>
+          <br />
+          <p>
+            <a
+              className="decoration-blue-400 underline"
+               href="https://github.com/aaditshah18/yaji"
+               target="_blank"
+                rel="noreferrer"
+            >
+              Check out the ongoing concept
+            </a>
+            .
+          </p>
+        </ProjectWrapper>
+        <ProjectWrapper
+          title="Role Rally"
+          desc="Choose your own identities."
+          demo="/projects/role-rally.png"
+        >
+        <p>
+            {`
+              Role Rally brings a unique solution to online communication by offering one platform where users can manage several digital identities, 
+              or 'roles', within a single account.
+            `}
+          </p>
+          <br />
+          <p>
+            {`
+            This means you can have a profile for different parts of your life—like one for school,
+                another for personal life,
+                 and one more for work—each with its own settings and privacy controls.
+            `}
+          </p>
+          <br />
+          <p>
+            <a
+              className="decoration-blue-400 underline"
+              href="https://github.com/INEEDAMONITOR/Role-Rally"
+              target="_blank"
+              rel="noreferrer"
+            >
+              See the app
+            </a>
+            .
+          </p>
+        </ProjectWrapper>
+        <ProjectWrapper
           title="bna"
           desc="Before, Now & After"
           demo="/projects/bna.png"
         >
           <p>
             {`
-                        "bna" is a web app, independently designed and built by myself, that helps you
+                        bna is a web app, independently designed and built by myself, that helps you
                         organize your work in a new timeline way,
                         so that you can focus on the priorities.
                     `}
