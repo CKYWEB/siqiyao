@@ -19,15 +19,15 @@ export default function Layout(props: {children: ReactNode}) {
   const nextIndex = currentIndex + 1;
 
   return (
-    <div className="mt-10">
-      <div className="flex justify-between">
+    <div className="my-4 mx-8 lg:mt-10">
+      <div className="flex justify-between mb-3 text-base lg:text-lg">
         <Link href={previousIndex === -1 ? "/" : paths[previousIndex]}>
-          <ArrowLeft className="w-10 h-10"/>
+          <ArrowLeft className="md:w-10 md:h-10"/>
           <div className="text-zinc-700">Previous</div>
         </Link>
         {nextIndex <= paths.length - 1 &&
           <Link href={paths[nextIndex]}>
-            <ArrowRight className="w-10 h-10"/>
+            <ArrowRight className="md:w-10 md:h-10"/>
             <div className="text-zinc-700">Next</div>
           </Link>
         }

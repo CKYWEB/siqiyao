@@ -10,10 +10,10 @@ type Props = {
 
 export default function ProjectWrapper(props: Props) {
     return (
-        <div className="mx-10 max-w-3xl text-lg">
+        <div className="max-w-3xl">
             <section className="text-center">
-                <h1 className="text-4xl mb-2 font-bold">{props.title}</h1>
-                <div className="text-gray-400 mb-4">{props.desc}</div>
+                <h1 className="text-3xl md:text-4xl mb-2 font-bold">{props.title}</h1>
+                <div className="md:text-lg text-zinc-500 mb-4">{props.desc}</div>
             </section>
             <div className="flex justify-center mb-4">
                 {typeof props.demo === "string" ?

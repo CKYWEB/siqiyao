@@ -7,7 +7,7 @@ export default function Page() {
       desc="Interactive design of game platform based on Tobii Eye Tracker."
       demo={
         <figure>
-          <video className="video" width="480" muted autoPlay>
+          <video className="video" width="480" muted controls>
             <source src="/projects/quickquiz_demo.MP4" type="video/mp4"/>
             Your browser does not support the video tag.
           </video>

@@ -21,7 +21,7 @@ export default function RootLayout({
       <body className={domine.className}>
         <NavBar />
         <div className="w-full flex justify-center">
-          <div className="max-w-4xl">
+          <div className="mx-4 lg:mx-0 max-w-4xl">
             {children}
           </div>
         </div>
