@@ -4,9 +4,14 @@ type Props = {
 
 export default function Footer (props: Props) {
     return (
-        <footer className={`border-t w-full py-8 h-20 text-center bg-amber-50 ${props.className}`}>
+        <footer className={`w-full py-8 h-20 text-center border-t ${props.className}`}>
             <div className="h-full flex flex-col justify-center">
-                <div>Written, designed, and implemented by Siqi Yao.</div>
+                <a
+                  href="mailto:yao.siq@northeastern.edu"
+                  className="hover:underline"
+                >
+                  yao.siq@northeastern.edu
+                </a>
             </div>
         </footer>
     )
