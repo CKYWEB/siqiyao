@@ -23,7 +23,7 @@ export default function NavBar () {
                     </a>
                     <a
                       target="_blank"
-                      href="https://github.com/CKYWEB"
+                      href="https://www.linkedin.com/in/siqi-yao-ck/"
                       rel="noreferrer"
                     >
                         <div className="cursor-pointer hover:opacity-75">
