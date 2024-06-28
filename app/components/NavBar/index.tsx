@@ -1,12 +1,16 @@
 import {GitHub, LinkedIn} from "@/app/components/Icons";
+import Link from "next/link";
 
 export default function NavBar () {
     return (
         <>
             <div className="flex justify-between p-6 pe-12 sticky top-0 bg-white border-b z-10">
-                <div className="flex items-center space-x-6 text-2xl font-bold">
-                    Siqi
-                </div>
+                <Link href="/">
+                    <div
+                      className="flex items-center space-x-6 text-2xl font-bold cursor-pointer hover:underline underline-offset-8">
+                        Siqi Yao
+                    </div>
+                </Link>
                 <div className="flex items-center text-xl space-x-4">
                     <a
                       target="_blank"
