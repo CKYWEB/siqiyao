@@ -3,6 +3,7 @@ import {Domine} from 'next/font/google'
 import './globals.css'
 import NavBar from "@/app/components/NavBar";
 import Footer from "@/app/components/Footer";
+import { Analytics } from "@vercel/analytics/react"
 
 const domine = Domine({ subsets: ['latin'] })
 
@@ -23,6 +24,7 @@ export default function RootLayout({
         <div className="w-full flex justify-center">
           <div className="mx-4 lg:mx-0 max-w-4xl">
             {children}
+            <Analytics />
           </div>
         </div>
         <Footer className="mt-10" />
